@@ -1,4 +1,5 @@
 export const WORDS = [
+    // CORRECT WORD
     'which',
     'there',
     'their',
