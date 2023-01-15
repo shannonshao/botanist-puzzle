@@ -4,7 +4,11 @@ const NUMBER_OF_GUESSES = 6;
 let guessesRemaining = NUMBER_OF_GUESSES;
 let currentGuess = [];
 let nextLetter = 0;
-let rightGuessString = WORDS[0]
+
+// Base64 representation of string to make answer further hidden in main branch
+// with obfuscation
+let rightGuessEncoded = 'cGxhbnQ=' // btoa("plant")
+let rightGuessString = atob(rightGuessEncoded)
 
 console.log(rightGuessString)
 
