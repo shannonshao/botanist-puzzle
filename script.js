@@ -7,7 +7,7 @@ let nextLetter = 0;
 
 // Base64 representation of string to make answer further hidden in main branch
 // with obfuscation
-let rightGuessEncoded = 'cGxhbnQ=' // btoa("plant")
+let rightGuessEncoded = 'Y2FjdGk=' // btoa("cacti")
 let rightGuessString = atob(rightGuessEncoded)
 
 console.log(rightGuessString)
